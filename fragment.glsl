@@ -1,8 +1,7 @@
-varying vec2 varyingTexCoord;
-uniform sampler2D texture;
-uniform float keyPress;
-
+varying vec4 varyingNormal;
+uniform vec3 uColor;
 void main() {
-    vec2 texCoord = vec2(varyingTexCoord.x , varyingTexCoord.y + keyPress);
-    gl_FragColor = texture2D(texture, texCoord);
+    float diffuse = max(0.0, dot(varyingNormal, vec4(-0.5773, 0.5773, 0.5773, 0.0)));
+    vec3 intensity = uColor * diffuse;
+    gl_FragColor = vec4(intensity.xyz, 1.0);
 }

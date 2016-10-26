@@ -1,7 +1,3 @@
-Assignment 1
+Assignment 2
 
-Render a rectangle as a pair of triangles textured with an image of your choice in two different positions on screen.
-
-You must use the same buffers for both, but change the position using a shader uniform in the vertex shader.
-
-Bonus: Add a uniform to the fragment shader and change the color or texture coordinate of the final pixel based on input.
+Render a simple 3D scene using primitives.At least 3 objects must be in a hierarchy (transforming relative to another object).Use the simple lighting shader for your objects and set their color using the uColor uniform.

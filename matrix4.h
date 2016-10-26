@@ -277,19 +277,19 @@ inline Matrix4 normalMatrix(const Matrix4& m) {
   return transpose(invm);
 }
 
-inline Matrix4 transFact(const Matrix4& m) {
-	// ==========================================
-	// TODO: fill in your own implementation here
-	// ==========================================
-}
-
-inline Matrix4 linFact(const Matrix4& m) {
-	// ==========================================
-	// TODO: fill in your own implementation here
-	// ==========================================
-	
-	
-}
+//inline Matrix4 transFact(const Matrix4& m) {
+//	// ==========================================
+//	// TODO: fill in your own implementation here
+//	// ==========================================
+//}
+//
+//inline Matrix4 linFact(const Matrix4& m) {
+//	// ==========================================
+//	// TODO: fill in your own implementation here
+//	// ==========================================
+//	
+//	
+//}
 
 #endif
 
